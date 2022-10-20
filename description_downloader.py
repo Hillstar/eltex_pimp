@@ -7,7 +7,7 @@ ERROR_RESPONSE = 404
 OK_RESPONSE = 200
 
 #target_url = "https://oda.sibirki.su/id_8343.html"
-SLUT_PAGE_TEMPLATE = "https://oda.sibirki.su/id_"
+SLUT_PAGE_TEMPLATE = "https://okt.sibirki.su/id_"
 
 def Download():
     try_num = 0

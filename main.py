@@ -13,7 +13,6 @@ import description_downloader as DD
 
 token = "5434133255:AAGjeXWpvd4vtyUKKZmNLULdyMWzbNDp_l0"
 bot = telegram.Bot(token=token)
-#pic = "./avatar.jpg"
 
 updater = Updater(token,
                   use_context=True)
@@ -21,7 +20,7 @@ updater = Updater(token,
 j = updater.job_queue
 
 my_tz = timezone('Etc/GMT-7')
-send_time = dt.time(20, 42, 0, 000000, tzinfo=my_tz)
+send_time = dt.time(11, 15, 0, 000000, tzinfo=my_tz)
 
 users_id = set()
 
